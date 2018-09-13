@@ -6,23 +6,22 @@
 /*   By: sdremora <sdremora@student.42.ft>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/08/28 20:43:28 by sdremora          #+#    #+#             */
-/*   Updated: 2018/08/29 15:07:13 by sdremora         ###   ########.fr       */
+/*   Updated: 2018/08/28 20:45:49 by sdremora         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_strncmp(char *s1, char *s2, unsigned int n)
 {
-	while ((*s1 != '\0' && *s2 != '\0') && n > 1)
+	unsigned int i;
+
+	i = 0;
+	while ((s1[i] != '\0' || s2[i] != '\0') && i < n)
 	{
-		if (*s1 != *s2)
-			return (*s1 - *s2);
-		s1++;
-		s2++;
-		n--;
+		if (s1[i] != s2[i])
+			return (s1[i] - s2[i]);
+		i++;
 	}
-	if (*s1 == '\0' && *s2 != '\0')
-		return (-*s2);
-	if (*s1 != '\0' && *s2 == '\0')
-		return (*s1);
+	if ((s1[i] == '\0' && s2[i] != '\0') || (s2[i] == '\0' && s1[i] != '\0'))
+		return (s1[i] - s2[i]);
 	return (0);
 }

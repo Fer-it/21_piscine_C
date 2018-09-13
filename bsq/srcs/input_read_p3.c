@@ -3,16 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   input_read_p3.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sdremora <sdremora@student.42.ft>          +#+  +:+       +#+        */
+/*   By: bsprigga <bsprigga@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/09/12 20:38:31 by bsprigga          #+#    #+#             */
-/*   Updated: 2018/09/12 23:40:58 by sdremora         ###   ########.fr       */
+/*   Updated: 2018/09/12 20:38:32 by bsprigga         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "bsq.h"
 #include "support.h"
-#include <stdio.h>
 
 void	fill_t_option(t_str *str_struct, t_option *option, int i)
 {

@@ -6,18 +6,18 @@
 /*   By: sdremora <sdremora@student.42.ft>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/08/25 19:46:09 by sdremora          #+#    #+#             */
-/*   Updated: 2018/08/25 20:46:06 by sdremora         ###   ########.fr       */
+/*   Updated: 2018/08/25 20:49:25 by sdremora         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_sqrt(int nb)
+int	ft_sqrt(int nb)
 {
-	int i = 0;
-	int root;
-	short flag;
+	int		i;
+	int		root;
+	short	flag;
 
 	flag = 1;
-	if ( nb < 1)
+	if (nb < 1)
 	{
 		return (0);
 	}
@@ -27,11 +27,11 @@ int ft_sqrt(int nb)
 	{
 		if ((root * root) == nb)
 		{
-			break;
+			break ;
 		}
 		root--;
 		if (root < 1)
-			break;
+			break ;
 	}
 	return (root);
 }

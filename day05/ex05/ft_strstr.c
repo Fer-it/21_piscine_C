@@ -6,7 +6,7 @@
 /*   By: sdremora <sdremora@student.42.ft>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/08/28 20:22:37 by sdremora          #+#    #+#             */
-/*   Updated: 2018/08/28 22:51:17 by sdremora         ###   ########.fr       */
+/*   Updated: 2018/08/28 21:19:46 by sdremora         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,5 +34,5 @@ char	*ft_strstr(char *str, char *to_find)
 		j = 0;
 		i++;
 	}
-	return ((char *) 0);
+	return ((char *)0);
 }

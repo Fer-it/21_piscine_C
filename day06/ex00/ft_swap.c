@@ -6,11 +6,11 @@
 /*   By: sdremora <sdremora@student.42.ft>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/08/29 10:21:42 by sdremora          #+#    #+#             */
-/*   Updated: 2018/08/29 10:23:11 by sdremora         ###   ########.fr       */
+/*   Updated: 2018/08/29 19:00:40 by sdremora         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void ft_swap(int *a, int *b)
+void	ft_swap(int *a, int *b)
 {
 	int temp;
 

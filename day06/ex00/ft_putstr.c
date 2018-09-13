@@ -6,7 +6,7 @@
 /*   By: sdremora <sdremora@student.42.ft>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/08/29 10:19:05 by sdremora          #+#    #+#             */
-/*   Updated: 2018/08/29 11:03:33 by sdremora         ###   ########.fr       */
+/*   Updated: 2018/08/29 19:00:12 by sdremora         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,6 @@ void	ft_putstr(char *str)
 	while (*str != '\0')
 	{
 		ft_putchar(*str);
-		str++;	
+		str++;
 	}
 }

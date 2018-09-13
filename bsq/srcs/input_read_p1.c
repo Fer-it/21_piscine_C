@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   input_read_p1.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sdremora <sdremora@student.42.ft>          +#+  +:+       +#+        */
+/*   By: bsprigga <bsprigga@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/09/12 20:38:05 by bsprigga          #+#    #+#             */
-/*   Updated: 2018/09/12 23:17:43 by sdremora         ###   ########.fr       */
+/*   Updated: 2018/09/12 20:38:06 by bsprigga         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -78,9 +78,7 @@ int		input_read(int argc, char *file_name, t_option *option)
 	{
 		error_code = check_first_row(fd, option);
 		if (error_code != 0)
-		{
 			return (error_code);
-		}
 		i = 0;
 		while (i < option->max_y)
 		{

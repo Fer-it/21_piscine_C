@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   print_table.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bsprigga <bsprigga@student.42.fr>          +#+  +:+       +#+        */
+/*   By: sdremora <sdremora@student.42.ft>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/09/12 20:38:53 by bsprigga          #+#    #+#             */
-/*   Updated: 2018/09/12 22:29:24 by bsprigga         ###   ########.fr       */
+/*   Updated: 2018/09/12 21:49:11 by sdremora         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,7 +46,7 @@ void	change_map(t_option *option, t_point answer)
 	}
 }
 
-void	replace_char_in_map(t_option *option)
+void replace_char_in_map(t_option *option)
 {
 	int y;
 	int x;

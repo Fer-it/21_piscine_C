@@ -6,11 +6,11 @@
 /*   By: sdremora <sdremora@student.42.ft>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/08/29 10:24:15 by sdremora          #+#    #+#             */
-/*   Updated: 2018/08/29 10:25:38 by sdremora         ###   ########.fr       */
+/*   Updated: 2018/08/29 18:59:32 by sdremora         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_strlen(char *str)
+int	ft_strlen(char *str)
 {
 	int count;
 

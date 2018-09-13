@@ -6,25 +6,20 @@
 /*   By: sdremora <sdremora@student.42.ft>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/08/28 11:47:20 by sdremora          #+#    #+#             */
-/*   Updated: 2018/08/29 11:22:35 by sdremora         ###   ########.fr       */
+/*   Updated: 2018/08/28 12:41:06 by sdremora         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 char	*ft_strcat(char *dest, char *src)
 {
-	int i;
-	int y;
-
-	i = 0;
-	y = 0;
-	while (dest[i] != '\0')
-		i++;
-	while (src[y] != '\0')
+	while (*dest != '\0')
+		dest++;
+	while (*src != '\0')
 	{
-		dest[i] = src[y];
-		i++;
-		y++;
+		*dest = *src;
+		dest++;
+		src++;
 	}
-	dest[i] = '\0';
+	*dest = '\0';
 	return (dest);
 }
